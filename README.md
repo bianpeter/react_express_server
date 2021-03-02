@@ -6,4 +6,4 @@
 - uploads folder (backend)
 - npm i express-fileupload (backend)
 - npx create-react-app (frontend)
-- npm install cors --save (to backend)
+- npm install cors --save (backend)
