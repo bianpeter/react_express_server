@@ -1,7 +1,9 @@
 # react_express_server
 
-1. npm init
-2. npm install express --save
-3. npm i express-fileupload
-4. npx create-react-app
-5. npm install cors --save
+- npm init (backend)
+- npm install express --save (backend)
+- server.js (backend)
+- uploads folder (backend)
+- npm i express-fileupload (backend)
+- npx create-react-app (frontend)
+- npm install cors --save (backend)
