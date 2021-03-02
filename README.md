@@ -2,5 +2,6 @@
 
 1. npm init
 2. npm install express --save
-3. npx create-react-app
-4. npm install cors --save
+3. npm i express-fileupload
+4. npx create-react-app
+5. npm install cors --save
