@@ -1,3 +1,81 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  position: relative;
+  top: 3vw;
+
+  height: 600px;
+  width: 50%;
+
+  margin: auto;
+  padding: 2vw;
+
+  background: rgb(148, 187, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(148, 187, 233, 1) 4%,
+    rgba(148, 187, 233, 1) 94%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+h1 {
+  padding-bottom: 1vw;
+}
+
+input {
+  border: none;
+
+  height: 25px;
+  margin: 0.5vw;
+}
+
+.address,
+.email,
+.fileupload-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.fileselect {
+  height: 5vw;
+  width: 50%;
+}
+
+.fileselect_data {
+  padding: 0.2vw;
+}
+
+button {
+  position: absolute;
+  border: none;
+  outline: none;
+
+  margin-top: 2vw;
+
+  width: 80px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: slategrey;
+  color: white;
+}
+
+#street,
+#email {
+  width: 40vw;
+}
+
+#city,
+#state,
+#postalcode,
+#firstname,
+#lastname {
+  width: 19.5vw;
 }
