@@ -35,6 +35,7 @@ function App() {
 				body: formData,
 			}
 		)
+			.then((response) => response.json())
 			.then((result) => {
 				console.log('Success:', result);
 			})
@@ -60,7 +61,7 @@ function App() {
 					<input type="text" id="street" className="toJson" name="street" placeholder="Street Address"></input>
 					<div className="">
 						<input type="text" id="city" className="toJson" name="city" placeholder="City"></input>
-						<input type="text" id="state" className="toJson" name="state" placeholder="State/Province"></input>
+						<input type="text" id="state" className="toJson" name="state" placeholder="State / Province"></input>
 						<input type="number" id="postalcode" className="toJson" name="postalcode" placeholder="Postal / Zip Code"></input>
 					</div>
 				</div>
