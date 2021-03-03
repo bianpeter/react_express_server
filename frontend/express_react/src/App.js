@@ -35,7 +35,7 @@ function App() {
 				body: formData,
 			}
 		)
-			.then((response) => response.json())
+			//.then((response) => response.json())
 			.then((result) => {
 				console.log('Success:', result);
 			})
