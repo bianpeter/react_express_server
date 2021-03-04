@@ -7,13 +7,13 @@
 
 .main {
   position: relative;
-  top: 3vw;
+  top: 20px;
 
-  height: 600px;
+  height: 680px;
   width: 50%;
 
   margin: auto;
-  padding: 2vw;
+  padding: 20px;
 
   background: rgb(148, 187, 233);
   background: linear-gradient(
@@ -31,8 +31,10 @@ h1 {
 input {
   border: none;
 
-  height: 25px;
-  margin: 0.5vw;
+  height: 40px;
+  margin: 10px;
+
+  padding: 5px 10px;
 }
 
 .address,
@@ -49,7 +51,7 @@ input {
 }
 
 .fileselect_data {
-  padding: 0.2vw;
+  padding: 10px;
 }
 
 button {
@@ -81,11 +83,17 @@ button:hover {
   width: 19.5vw;
 }
 
-.btn {
+.btn-container {
   display: flex;
   justify-content: center;
 
   width: 100%;
+}
 
-  font-weight: 800;
+.btn {
+  font-weight: 600;
+}
+
+label {
+  padding-left: 10px;
 }

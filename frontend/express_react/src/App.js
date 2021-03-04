@@ -18,7 +18,7 @@ function App() {
 
 		const ls = document.querySelectorAll(".toJson");
 
-		for (let i = 0; i < ls.length; i++) {
+		for (let i = 0; i < ls.length; i++) { //to-do (átírni) -> for of
 			let name = ls[i].getAttribute("name");
 			userData[`${name}`] = ls[i].value;
 		}
@@ -85,8 +85,8 @@ function App() {
 					)}
 				</div>
 			</div>
-			<div  className="btn">
-				<button onClick={handleSubmission}>Submit</button>
+			<div  className="btn-container">
+				<button className="btn" onClick={handleSubmission}>Submit</button>
 			</div>
 		</div>
   );
