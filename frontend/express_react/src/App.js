@@ -85,7 +85,9 @@ function App() {
 					)}
 				</div>
 			</div>
-			<button onClick={handleSubmission}>Submit</button>
+			<div  className="btn">
+				<button onClick={handleSubmission}>Submit</button>
+			</div>
 		</div>
   );
 }
